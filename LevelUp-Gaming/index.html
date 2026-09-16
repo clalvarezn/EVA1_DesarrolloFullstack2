@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es"><!-- lenguaje español -->
+<head>
+  <meta charset="UTF-8"><!-- Este es el formato de texto universal, incluye español -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Esto es para que la página sea compatible con los distintos tamaños de dispositivos -->
+  <title>Inicio | LevelUp Gaming</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"><!-- todo esto es bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"><!-- todo esto es bootstrap -->
+  <link rel="stylesheet" href="css/style.css"><!-- todo esto es bootstrap -->
+</head>
+<body>
+
+
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg navbar-dark"> <!-- cabecera estática (barra navegadora) -->
+    <div class="container nav-container">
+      <a class="navbar-brand logo" href="index.html">LEVEL<span>UP</span> GAMING</a><!-- estos son hipervínculos (todos los que tienen contenedores "a") -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Abrir navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <div class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <a class="nav-link" href="index.html">Inicio</a>
+          <a class="nav-link" href="productos.html">Productos</a>
+          <a class="nav-link" href="blogs.html">Blogs</a>
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
+          <a class="nav-link" href="contacto.html">Contacto</a>
+          <a class="nav-link" href="login.html">Ingresar</a>
+          <a class="btn btn-primary ms-lg-2" href="carrito.html"><i class="bi bi-cart3"></i> Carrito</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="hero p-0">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Contenido de Diapositivas -->
+    <div class="carousel-inner">
+      
+      <!-- SLIDE 1 -->
+      <div class="carousel-item active">
+        <a href="productos.html">
+          <img src="https://media.canva.com/v2/image-resize/format:JPG/height:402/quality:92/uri:ifs%3A%2F%2FM%2F0d069379-ce2b-40d5-90e4-2624828a5b5c/watermark:F/width:1271?csig=AAAAAAAAAAAAAAAAAAAAAEwghAmXGguh5AsRMNjJnr_dOI4DQx7GJ5fwEk-ZkS3v&exp=1789439941&osig=AAAAAAAAAAAAAAAAAAAAAL3ahcf4nkVj8h3x0D3U7tOnemkv9fqDyr8yyhKUvSIT&signer=media-rpc&x-canva-quality=screen_3x" class="d-block w-100 hero-img" alt="Sube de nivel tu experiencia gamer">
+        </a>
+      </div>
+
+      <!-- SLIDE 2 -->
+      <div class="carousel-item">
+        <a href="productos.html">
+          <img src="https://media.canva.com/v2/image-resize/format:JPG/height:402/quality:92/uri:ifs%3A%2F%2FM%2F164fae6d-02c0-4894-9027-5c3345742a06/watermark:F/width:1271?csig=AAAAAAAAAAAAAAAAAAAAAPHopIys3Ho03qdOXIFCgQyCHfMxWZratRXOptwSTUT1&exp=1789442380&osig=AAAAAAAAAAAAAAAAAAAAAO8Ttu58OPRifr9YUFWn5rErVn5sbo3PexPamwnNlXyf&signer=media-rpc&x-canva-quality=screen_3x" class="d-block w-100 hero-img" alt="Tarjetas Gráficas de Última Generación">
+        </a>
+      </div>
+
+      <!-- SLIDE 3 -->
+      <div class="carousel-item">
+        <a href="productos.html">
+          <img src="https://media.canva.com/v2/image-resize/format:JPG/height:402/quality:92/uri:ifs%3A%2F%2FM%2F66e0a755-9e08-4cb2-a5c0-b0ee8712165d/watermark:F/width:1271?csig=AAAAAAAAAAAAAAAAAAAAAHOwBHZdm-NX3v0RF_53A5sj8kNFLJbOen59QwGuWbAJ&exp=1789440371&osig=AAAAAAAAAAAAAAAAAAAAAL4u0Oz0D3XGIUtlE_aVH-K0McQCyQt14TflTtgVaNlM&signer=media-rpc&x-canva-quality=screen_3x" class="d-block w-100 hero-img" alt="Ilumina tu espacio de juego">
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Flechas de navegación -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+
+  </div>
+</section>
+<!-- comentario -->
+
+<section class="container section">
+  <h2>⚡ Ofertas relámpago</h2>
+  <div class="product-grid">
+    <article class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvxSxtVf9uB4_gn47kWjeiI3TZJxf_FzAVcgoIkcAApMJ8ecnziGnaQdA&s=10" alt=""><h3>RTX Gaming Pro</h3><p>Tarjeta gráfica de alto rendimiento.</p><strong>$599.990</strong><a class="btn-small" href="detalle-producto.html">Ver producto</a></article>
+    <article class="card"><img src="https://cdnx.jumpseller.com/fantech-esports/image/39087132/thumb/1440/1440?1754504474" alt=""><h3>Teclado RGB Pro</h3><p>Teclado mecánico para gamers.</p><strong>$79.990</strong><a class="btn-small" href="detalle-producto1.html">Ver producto</a></article>
+    <article class="card"><img src="https://media.falabella.com/falabellaCL/147668350_01/w=1200,h=1200,fit=pad" alt=""><h3>Monitor 27" Gamer</h3><p>Alta tasa de refresco para gaming.</p><strong>$249.990</strong><a class="btn-small" href="detalle-producto2.html">Ver producto</a></article>
+  </div>
+</section>
+<section class="brands">
+  <div class="container">
+    <h2>Marcas asociadas</h2>
+    <div class="brand-list"><span>LOGITECH</span><span>ASUS</span><span>AMD</span><span>NVIDIA</span><span>MSI</span></div>
+  </div>
+</section>
+<section class="container section">
+  <h2>Categorías</h2>
+  <div class="category-grid">
+    <a href="productos.html">🎧 Periféricos</a>
+    <a href="productos.html">🖥️ Hardware PC</a>
+    <a href="productos.html">🪑 Sillas Gamer</a>
+    <a href="productos.html">🎮 Accesorios</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <h3>LEVELUP GAMING</h3>
+    <p>Hardware, periféricos y cultura gamer en un solo lugar.</p>
+    <p>© 2026 LevelUp Gaming - Derechos reservados</p>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
