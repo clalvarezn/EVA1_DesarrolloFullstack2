@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro | LevelUp Gaming</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container nav-container">
+      <a class="navbar-brand logo" href="index.html">LEVEL<span>UP</span> GAMING</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Abrir navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <div class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <a class="nav-link" href="index.html">Inicio</a>
+          <a class="nav-link" href="productos.html">Productos</a>
+          <a class="nav-link" href="blogs.html">Blogs</a>
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
+          <a class="nav-link" href="contacto.html">Contacto</a>
+          <a class="nav-link" href="login.html">Ingresar</a>
+          <a class="btn btn-primary ms-lg-2" href="carrito.html"><i class="bi bi-cart3"></i> Carrito</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container form-section">
+  <form id="registroForm" class="form-card shadow-lg">
+    <h1>Crear cuenta</h1>
+    <label>Nombre<input class="form-control" id="nombre" type="text" maxlength="50" required></label>
+    <label>Apellidos<input class="form-control" id="apellidos" type="text" maxlength="100" required></label>
+    <label>RUN<input class="form-control" id="run" type="text" placeholder="19011022K" minlength="7" maxlength="9" required></label>
+    <label>Correo<input class="form-control" id="correo" type="email" maxlength="100" placeholder="usuario@gmail.com" required></label>
+    <label>Contraseña<input class="form-control" id="password" type="password" minlength="4" maxlength="10" required></label>
+    <label>Dirección<input class="form-control" id="direccion" type="text" maxlength="300" required></label>
+    <button class="btn" type="submit">Registrarme</button>
+    <p id="registroMensaje"></p>
+  </form>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <h3>LEVELUP GAMING</h3>
+    <p>Hardware, periféricos y cultura gamer en un solo lugar.</p>
+    <p>© 2026 LevelUp Gaming - Derechos reservados</p>
+  </div>
+</footer>
+
+<script src="js/validaciones.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
