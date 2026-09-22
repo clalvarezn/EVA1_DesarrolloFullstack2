@@ -1,6 +1,6 @@
 # EVA1_DesarrolloFullstack2
 
-Integrantes:
+Integrantes:<br>
 -Claudio Álvarez<br>
 -Gabriel Barrera<br>
 -Nicolas Fernandez<br>
