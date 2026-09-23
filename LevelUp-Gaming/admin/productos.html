@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - Admin | LevelUp Gaming</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="admin-header">
+  <a class="logo" href="index.html">LEVEL<span>UP</span> ADMIN</a>
+</header>
+<aside class="sidebar">
+  <a href="index.html"><i class="bi bi-speedometer2"></i> Dashboard</a>
+  <a href="productos.html"><i class="bi bi-box-seam"></i> Productos</a>
+  <a href="producto-nuevo.html"><i class="bi bi-plus-circle"></i> Nuevo producto</a>
+  <a href="usuarios.html"><i class="bi bi-people"></i> Usuarios</a>
+  <a href="usuario-nuevo.html"><i class="bi bi-person-plus"></i> Nuevo usuario</a>
+  <a href="../index.html"><i class="bi bi-shop"></i> Ver tienda</a>
+</aside>
+
+<main class="admin-main">
+  <h1>Gestión de productos</h1>
+  <a class="btn" href="producto-nuevo.html"><i class="bi bi-plus-circle"></i> Nuevo producto</a>
+
+  <div class="table-responsive mt-4">
+    <table class="table table-dark table-hover align-middle mb-0">
+      <thead>
+        <tr>
+          <th>Código</th>
+          <th>Producto</th>
+          <th>Descripción</th>
+          <th>Precio</th>
+          <th>Stock</th>
+          <th>Estado</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GPU-001</td>
+          <td>RTX Gaming Pro</td>
+          <td>Tarjeta gráfica de alto rendimiento.</td>
+          <td>$599.990</td>
+          <td>2</td>
+          <td><span class="stock critical-stock">Crítico</span></td>
+          <td><a href="producto-editar.html">Editar</a></td>
+        </tr>
+        <tr>
+          <td>TEC-001</td>
+          <td>Teclado RGB Pro</td>
+          <td>Teclado mecánico RGB 60% en español.</td>
+          <td>$79.990</td>
+          <td>12</td>
+          <td><span class="stock normal-stock">Normal</span></td>
+          <td><a href="producto-editar.html">Editar</a></td>
+        </tr>
+        <tr>
+          <td>MOU-001</td>
+          <td>Mouse Gamer X</td>
+          <td>Mouse ergonómico de alta precisión.</td>
+          <td>$39.990</td>
+          <td>8</td>
+          <td><span class="stock normal-stock">Normal</span></td>
+          <td><a href="producto-editar.html">Editar</a></td>
+        </tr>
+        <tr>
+          <td>MON-001</td>
+          <td>Monitor Gamer 27&quot;</td>
+          <td>Monitor para gaming competitivo.</td>
+          <td>$249.990</td>
+          <td>3</td>
+          <td><span class="stock critical-stock">Crítico</span></td>
+          <td><a href="producto-editar.html">Editar</a></td>
+        </tr>
+        <tr>
+          <td>SIL-001</td>
+          <td>Silla Gamer Pro</td>
+          <td>Comodidad para largas sesiones.</td>
+          <td>$189.990</td>
+          <td>7</td>
+          <td><span class="stock normal-stock">Normal</span></td>
+          <td><a href="producto-editar.html">Editar</a></td>
+        </tr>
+        <tr>
+          <td>AUD-001</td>
+          <td>Headset RGB</td>
+          <td>Audio inmersivo para tus partidas.</td>
+          <td>$69.990</td>
+          <td>15</td>
+          <td><span class="stock normal-stock">Normal</span></td>
+          <td><a href="producto-editar.html">Editar</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

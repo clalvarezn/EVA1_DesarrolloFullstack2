@@ -115,6 +115,10 @@ document.getElementById("loginForm")?.addEventListener("submit", function(event)
     // Validamos el correo y mostramos el resultado.
     if (validarCorreo(correo)) {
         mensaje.textContent = "Inicio de sesión validado correctamente.";
+
+        if (new URLSearchParams(window.location.search).get("redirect") === "admin") {
+            window.location.href = "admin/admin_index.html";
+        }
     } else {
         mensaje.textContent = "Correo no permitido.";
     }
