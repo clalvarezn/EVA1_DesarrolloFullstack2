@@ -1,15 +1,17 @@
+/* Este es un estilo de caja para todos los elementos */
 * {
-    box-sizing: border-box
+    box-sizing: border-box 
 }
 
 /* Hice este estilo para ajustar la imagen del carrusel del index */
 .carousel-item img {
   width: 100%;
-  max-height: 500px; /* Ajusta la altura máxima según tu preferencia */
+  max-height: 500px; /* Ajusta la altura máxima a 500px */
   object-fit: cover; /* Ajusta la imagen sin deformarla */
   object-position: center; /* Mantiene la imagen centrada */
 }
 
+/* este controla la tipografía del proyecto */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #0b0d12;
@@ -17,16 +19,19 @@ body {
     line-height: 1.6
 }
 
+/* para quitar los subrayados */
 a {
     color: #fff;
     text-decoration: none
 }
 
+/* se usa para centrar los contenidos en las cajas */
 .container {
-    width: min(1120px, 92%);
-    margin: auto
+    width: min(1120px, 92%);/* este define el ancho máximo del contenedor */
+    margin: auto /* margen automático */
 }
 
+/* este es el formato de la barra superior */
 .site-header {
     background: #11151d;
     border-bottom: 1px solid #252b36;
@@ -35,6 +40,7 @@ a {
     z-index: 10
 }
 
+/* contenedor de navegación */
 .nav-container {
     min-height: 72px;
     display: flex;
@@ -43,16 +49,19 @@ a {
     gap: 20px
 }
 
+/* este es el estilo para el logo (textos grandes) */
 .logo {
     font-size: 22px;
     font-weight: 900;
     letter-spacing: 1px
 }
 
+/* hace que el final del texto sea de color verde */
 .logo span {
     color: #8cff00
 }
 
+/* muestra los enlaces de navegación en fila */
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -60,15 +69,18 @@ nav {
     align-items: center
 }
 
+/* este es el color del enlace al pasar el mouse por encima */
 nav a:hover {
     color: #8cff00
 }
 
+/* este lo hice yo para las secciones grandes (lo usé en el carrusel) */
 .hero {
     padding: 110px 0;
     background: radial-gradient(circle at 80%, #243b0f, #0b0d12 55%)
 }
 
+/* título de hero */
 .hero h1 {
     font-size: clamp(38px, 6vw, 70px);
     max-width: 750px;
@@ -76,30 +88,34 @@ nav a:hover {
     margin: 10px 0 20px
 }
 
+/* párrafo de hero */
 .hero p {
     max-width: 700px;
     color: #c7ccd4;
     font-size: 18px
 }
 
+/* etiqueta destacada */
 .eyebrow {
     color: #8cff00;
     font-weight: bold;
     letter-spacing: 2px
 }
 
+/* botón principal verde */
 .btn {
-    display: inline-block;
+    display: inline-block; /* Muestra el botón como un elemento en línea */
     border: 0;
     background: #8cff00;
     color: #0a0d0b;
     font-weight: 800;
-    padding: 12px 22px;
+    padding: 12px 22px; /* Espaciado interno del botón */
     border-radius: 8px;
     margin-top: 20px;
     cursor: pointer;
 }
 
+/* botón pequeño */
 .btn-small {
     display: inline-block;
     border: 0;
@@ -112,16 +128,20 @@ nav a:hover {
     cursor: pointer;
     text-align: center;
 }
+
+/* espaciado entre secciones */
 .section {
     padding: 60px 0
 }
 
+/* títulos de sección */
 .section h1,
 .section>h2 {
     margin-bottom: 12px;
     color: #ffffff
 }
 
+/* cuadrícula de productos (todas las cuadrículas son estandar y reusables) */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -129,6 +149,7 @@ nav a:hover {
     margin-top: 25px
 }
 
+/* tarjetas para productos (son los contenedores donde van los estilos de las letras y sus formatos) */
 .card,
 .about-card,
 .form-card,
@@ -140,18 +161,21 @@ nav a:hover {
     color: #ffffff
 }
 
+/* títulos de tarjeta */
 .card h3,
 .card h2 {
     margin: 10px 0;
     color: #ffffff
 }
 
+/* texto en negrita dentro de las tarjetas */
 .card strong {
     display: block;
     font-size: 20px;
     color: #ffffff
 }
 
+/* placeholder (este es el cuadrado donde debería ir la imagen si es que no se ha cargado una) */
 .placeholder {
     height: 180px;
     background: #242a34;
@@ -164,16 +188,19 @@ nav a:hover {
     letter-spacing: 2px
 }
 
+/* placeholder grande (es la altura mínima) */
 .placeholder.big {
     height: 320px
 }
 
+/* marcas (sirve para mostrar las marcas de los productos) */
 .brands {
     background: #12161d;
     padding: 45px 0;
     text-align: center
 }
 
+/* estos son los botones de marcas (en nuestro proyecto son enlaces) */
 .brand-list {
     display: flex;
     justify-content: center;
@@ -184,6 +211,7 @@ nav a:hover {
     color: #b9c0ca
 }
 
+/* cuando pasas el mouse por encima aparece un borde verde */
 .category-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -191,6 +219,7 @@ nav a:hover {
     margin-top: 25px
 }
 
+/* enlaces de categoría */
 .category-grid a {
     padding: 28px;
     background: #151a22;
@@ -199,10 +228,12 @@ nav a:hover {
     font-size: 18px
 }
 
+/* cuando pasas el mouse por encima aparece un borde verde (igual que el anterior) */
 .category-grid a:hover {
     outline: 2px solid #8cff00
 }
 
+/* este es el estilo del footer */
 .site-footer {
     background: #080a0e;
     border-top: 1px solid #292f39;
@@ -248,6 +279,7 @@ nav a:hover {
     resize: vertical
 }
 
+/* de aquí en adelante vienen los detalles de los productos, esto se ve en la página de cada producto */
 .detail {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -281,6 +313,7 @@ nav a:hover {
     margin-top: 25px
 }
 
+/* acá van los estilos del carrito de compras y de la sección de administración*/
 .cart-total {
     margin-top: 25px;
     font-size: 24px;
@@ -392,6 +425,11 @@ th {
     background: #202630
 }
 
+/* estos son los estilos del diseño responsivo::
+ajusta la navegación al formato móvil,
+hace que los elementos se apilen,
+hace que el sidebar se muestre de forma horizontal cuando no cabe
+y arregla las tablas para que se vuelvan más legibles en pantallas pequeñas */
 @media(max-width:800px) {
     nav {
         gap: 9px;
@@ -440,7 +478,7 @@ th {
 }
 
 
-/* Bootstrap customizations - LevelUp Gaming */
+/* Acá van las personalizaciones de Bootstrap */
 .btn {
     border: 0
 }
