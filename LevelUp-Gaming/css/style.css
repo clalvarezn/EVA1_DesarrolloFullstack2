@@ -14,8 +14,14 @@
 /* este controla la tipografía del proyecto */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #0b0d12;
-    color: #f4f4f4;
+    /* este es un background con gradiente de negro a verde*/
+    background: linear-gradient(
+        to bottom,
+        #0b0d12 0%,
+        #0b0d12 30%,
+        #35ed11 100%
+    );
+    color: #f4f4f4;body
     line-height: 1.6
 }
 
