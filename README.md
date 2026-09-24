@@ -8,7 +8,7 @@ Integrantes:<br>
 <strong>
 Caso 2: "LevelUp Gaming" – Tienda de Componentes y Videojuegos
 Contexto de la empresa:<br>
-LevelUp Gaming es una tienda especializada en hardware de computación (tarjetas gráficas, periféricos RGB, monitores) y merchandising geek. Quieren un portal web intuitivo donde los clientes puedan revisar stock y armar sus carritos, mientras que sus administradores gestionan el inventario de piezas tecnológicas de alto valor.
+LevelUp Gaming es una tienda especializada en hardware de computación (tarjetas gráficas, periféricos RGB, monitores) y merchandising geek. Quieren un portal web intuitivo donde los clientes puedan revisar stock y armar sus carritos, mientras que sus administradores gestionan el inventario de piezas tecnológicas de alto valor.<br>
 
 Público Objetivo:<br>
 Gamers, entusiastas de la tecnología, streamers y creadores de contenido.
