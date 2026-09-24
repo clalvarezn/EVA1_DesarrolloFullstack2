@@ -11,7 +11,7 @@
   object-position: center; /* Mantiene la imagen centrada */
 }
 
-/* este controla la tipografía del proyecto */
+/* este es el estilo del body del proyecto (background) */
 body {
     font-family: Arial, Helvetica, sans-serif;
     /* este es un background con gradiente de negro a verde*/
