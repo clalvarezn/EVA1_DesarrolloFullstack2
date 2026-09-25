@@ -1,9 +1,9 @@
 # EVA1_DesarrolloFullstack2
 
-Integrantes:<br>
+<strong>Integrantes:<br>
 -Claudio Álvarez<br>
 -Gabriel Barrera<br>
--Nicolas Fernandez<br>
+-Nicolas Fernandez<br></strong>
 
 <strong>
 Caso 2: "LevelUp Gaming" – Tienda de Componentes y Videojuegos
